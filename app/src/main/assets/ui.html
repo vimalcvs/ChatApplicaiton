@@ -1,0 +1,557 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+    <title>Turrto</title>
+    <meta content="" name="description">
+    <meta content="" name="keywords">
+
+    <!-- Favicons -->
+    <link href="images/big_logo.png" rel="icon">
+    <link href="images/big_logo.png" rel="apple-touch-icon">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Muli:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+          rel="stylesheet">
+
+    <!-- Vendor CSS Files -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/icofont.min.css" rel="stylesheet">
+    <link href="css/boxicons.min.css" rel="stylesheet">
+    <link href="css/animate.min.css" rel="stylesheet">
+    <link href="css/venobox.css" rel="stylesheet">
+    <link href="css/owl.carousel.min.css" rel="stylesheet">
+    <link href="css/aos.css" rel="stylesheet">
+    <!-- Template Main CSS File -->
+    <link href="css/style.css" rel="stylesheet">
+    <style>
+
+
+        h5{
+            color:#fe825a;
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+
+<style>
+    .php_form .form-control{
+      margin-bottom:30px;
+      padding:20px;
+    border-radius:0px;
+      background-color:#f3f1f0;
+  }
+  .form-control:focus{
+      box-shadow:none;
+  }
+  .nav-menu a {
+  font-weight:bold;
+   text-transform: capitalize;
+ }
+ .enq_button
+ {
+     padding: 7px 18px;
+     text-decoration: none;
+     transition: all 0.3s;
+     box-shadow: 0 5px 25px -7px #464444;
+     background: #ff5821;
+     border: 1px solid #ff5821;
+     border-radius: 28px;
+  font-weight:bold;
+     color: #fff;
+     font-size: 12px;
+     text-decoration: none;
+     transition: all 0.3s;
+ }
+ .enq_button:hover {
+     box-shadow:none;
+      border: 1px solid #ff5821;
+     color:#ff5821;
+        background: #fff;
+          transition: all 0.3s;
+ }
+</style>
+<!-- ======= Top Bar ======= -->
+<section class="d-none d-lg-block" id="topbar">
+    <div class="container-fluid d-flex">
+        <div class="contact-info mr-auto">
+            <i class="icofont-envelope"></i><a
+                href="mailto:contact@example.com">info@Turrto.in</a>
+            <i class="icofont-phone"></i> <a href="tel:91 999 79 82892">+91 999 79 82892</a>
+        </div>
+        <div class="social-links">
+            <a class="" href="https://www.Turrto.in/faq.html" rel="noopener noreferrer"
+               target="_blank"><i class=""></i>FAQ</a>
+            <a class="twitter" href="https://twitter.com/tech_Turrto" rel="noopener noreferrer"
+               target="_blank"><i class="icofont-twitter"></i></a>
+            <a class="facebook" href="https://www.facebook.com/Turrto.in" rel="noopener noreferrer"
+               target="_blank"><i class="icofont-facebook"></i></a>
+            <a class="instagram" href="https://www.instagram.com/Turrto.in/"
+               rel="noopener noreferrer" target="_blank"><i class="icofont-instagram"></i></a>
+            <a class="skype" href="skype:Delhi.Turrto?chat" rel="noopener noreferrer"
+               target="_blank"><i class="icofont-skype"></i></a>
+            <a class="linkedin" href="https://www.linkedin.com/company/Turrto-technology" rel="noopener noreferrer"
+               target="_blank"><i class="icofont-linkedin"></i></a>
+        </div>
+    </div>
+</section>
+<div aria-hidden="true" aria-labelledby="exampleModalLabel" class="modal fade" id="enquiry_modal"
+     role="dialog" tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Get In Touch </h5>
+                <button aria-label="Close" class="close" data-dismiss="modal" type="button">
+                    <span aria-hidden="true">×</span>
+                </button>
+            </div>
+            <div class="modal-body php_form">
+                <form action="" method="post">
+
+                    <div class="col">
+                        <input class="form-control" name="name" placeholder="Name" type="text">
+                    </div>
+
+                    <div class="col">
+                        <input class="form-control" name="email" placeholder="Email" type="text">
+                    </div>
+                    <div class="col">
+                        <input class="form-control" name="mobile_number" placeholder="Mobile Number"
+                               required=""
+                               type="text">
+                    </div>
+                    <div class="col">
+                        <input class="form-control" name="subject" placeholder="Subject"
+                               type="text">
+                    </div>
+                    <div class="col">
+                        <textarea class="form-control" name="message" placeholder="Message"
+                                  rows="2"></textarea>
+                    </div>
+                    <div class="col">
+                        <button class="btn btn-danger" name="send_message" type="submit">Submit
+                        </button>
+                    </div>
+                </form>
+            </div>
+
+        </div>
+    </div>
+</div>
+<!-- ======= Header ======= -->
+<div aria-hidden="true" aria-labelledby="myModalLabel" class="modal fade" id="success1"
+     role="dialog"
+     tabindex="-1">
+    <div class="modal-dialog modal-sm" role="document">
+        <!--Content-->
+        <div class="modal-content">
+            <!--Header-->
+            <div class="modal-header" style="background-color:white;color:black">
+                <h4 class="modal-title w-100" id="myModalLabel">Notification ! </h4>
+                <button aria-label="Close" class="close" data-dismiss="modal" type="button">
+                    <span aria-hidden="true">×</span>
+                </button>
+            </div>
+            <!--Body-->
+            <div class="modal-body text-center">
+                <i aria-hidden="true" class="fa fa-check-square-o"
+                   style="font-size:50px;color:green"></i>
+                <p style="color:green"><b>Your Request sent Successfully</b></p>
+            </div>
+
+        </div>
+        <!--/.Content-->
+    </div>
+</div>
+
+<header id="header">
+    <div class="container-fluid d-flex">
+
+        <div class="logo mr-auto">
+            <h1 class="text-light" style="padding:0px;"><a href="index.html"><img
+                    alt="Turrto Technologies" src="images/logo_Turrto.png"></a></h1>
+
+        </div>
+
+        <nav class="nav-menu d-none d-lg-block">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <!--  <li><a href="services.html"></a></li>---->
+
+
+                <!--- <li><a href="pricing.html">Pricing</a></li>
+             <li><a href="blog.html">Blog</a></li>--------->
+                <li class="drop-down"><a href="#">Services</a>
+                    <ul>
+                        <li class="drop-down"><a href="development_service.html">Development
+                            Service</a>
+                            <ul>
+                                <li><a href="android_development.html">Android App Development</a>
+                                </li>
+                                <li><a href="ios_development.html">IOS App Development</a></li>
+                                <li><a href="software_development.html">Software Development</a>
+                                </li>
+                                <li><a href="windows_mobile_app.html">Windows Mobile App</a></li>
+                                <li><a href="website_development.html">Website Development</a></li>
+                                <li><a href="mac_app_development.html">Mac App Development</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="cloud_service.html"> Cloud Service</a></li>
+                        <li><a href="ui.html" style="color:#ff5821">UI/UX Design</a></li>
+                        <li><a href="animation.html">2D &amp; 3d Animation</a></li>
+                        <li><a href="security.html">Security Solution</a></li>
+                        <li><a href="iot.html">IOT Solution</a></li>
+                        <li><a href="digital.html">Digital Marketing</a></li>
+                    </ul>
+                </li>
+
+                <li><a href="process.html">Process</a></li>
+                <li><a href="project.html">Projects</a></li>
+
+                <!--- <li class="drop-down"><a href="Services.html">Services</a>
+                  <ul>
+                    <li><a href="#">Drop Down 1</a></li>
+                    <li class="drop-down"><a href="#">Drop Down 2</a>
+                      <ul>
+                        <li><a href="#">Deep Drop Down 1</a></li>
+                        <li><a href="#">Deep Drop Down 2</a></li>
+                        <li><a href="#">Deep Drop Down 3</a></li>
+                        <li><a href="#">Deep Drop Down 4</a></li>
+                        <li><a href="#">Deep Drop Down 5</a></li>
+                      </ul>
+                    </li>
+                    <li><a href="#">Drop Down 3</a></li>
+                    <li><a href="#">Drop Down 4</a></li>
+                    <li><a href="#">Drop Down 5</a></li>
+                  </ul>
+                </li> --->
+                <li><a href="contact.html">Contact</a></li>
+                <li style="padding:6px 10px">
+                    <a style="padding:0px">
+                        <button class="enq_button" data-target="#enquiry_modal" data-toggle="modal">
+                            Book Consultant
+                        </button>
+                    </a></li>
+            </ul>
+        </nav><!-- .nav-menu -->
+
+    </div>
+</header><!-- End Header -->
+<!-- ======= Breadcrumbs ======= -->
+<section class="breadcrumbs" id="breadcrumbs">
+    <div class="container">
+
+        <div class="d-flex justify-content-between align-items-center">
+            <h2>UI/UX Design </h2>
+            <ol>
+                <li><a href="index.html">Home</a></li>
+                <li>UI/UX Design</li>
+            </ol>
+        </div>
+
+    </div>
+</section><!-- End Breadcrumbs -->
+
+
+<main id="main">
+
+
+    <section class="features services" id="features" style="background: #f3f1f0;">
+        <div class="container">
+            <br>
+
+            <div class="row">
+
+                <div class="col-lg-12 ml-auto" data-aos="fade-left" data-aos-delay="100">
+
+                    <div class="row">
+
+                        <div class="col-sm-12 col-md-4 col-lg-4">
+                            <div class="project_complete">
+                                <img src="images/What-makes-us-different.png"
+                                     style="max-width:100%">
+                            </div>
+                        </div>
+
+                        <div class="col-sm-12 col-md-8 col-lg-8">
+                            <div class="project_complete" data-aos="fade-up" data-aos-delay="100">
+                                <h4><b> UI/UX Design </b></h4>
+                                <p>We are driving web and Mobile Application Development Services
+                                    supplier under its prosperity demonstrated philosophy. Our
+                                    condition of-workmanship mobile and Web Development Services are
+                                    completely prepared to deliver offshore Mobile and Web Design
+                                    Services to various worldwide businesses. We apply time-regarded
+                                    quick application development Services to various worldwide
+                                    enterprises.
+
+                                </p>
+
+
+                                <h5>E-Commerce Web Design</h5>
+                                <p>Nahr Development Egypt gives a variety of web Design services
+                                    extending from logo design to E-commerce web design services to
+                                    different companies around the world. Bespoke e-commerce design
+                                    helps you to incorporate a custom application development,
+                                    e-commerce payment gateway, shopping cart, marketing approach,
+                                    E-payment solutions etc.
+
+                                </p>
+
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12 col-md-12 col-lg-12">
+
+
+                            <h5>HTML5 Website Development</h5>
+                            <p>The cutting edge modern web development, HTML 5 web development
+                                platform offers elements and advantages with database mix, CMS
+                                website with element pages, and video highlights.
+
+                            </p>
+
+                            <h5>Web 2.O Design</h5>
+                            <p>We have an expert team that design, creates and deliver a Rich
+                                arrangement of web applications and solutions for different business
+                                verticals. They take after the top Web 2.0 principles to deliver the
+                                clients the quality item that will help their web showcasing
+                                profile, manifolds. The intelligent web applications and performing
+                                programming created by us have been helping organizations around the
+                                globe to lessen their consumptions, increase work effectiveness and
+                                handle continuous client experience direct.
+
+                            </p>
+                            <h5>Responsive Website Design</h5>
+                            <p>When you have a decent business website that attracts traffic from
+                                the top search engines, you are on the right way. Be that as it may,
+                                move in innovation has allowed individuals to get to business
+                                websites on their smart phones.
+
+                            </p>
+
+                            <h5>HTML and CSS</h5>
+                            <p>Having an incomprehensible learning around various technologies is
+                                insufficient. What you need is a pool of gifted individuals that
+                                have the vital expertise and the will to apply that knowledge into
+                                creating the perfect work of art. Something comparable can be said
+                                in regards to the utilization of HTML and CSS. These two innovations
+                                have assumed a progressive part in changing the universe of the web
+                                until the end of time.
+                            </p>
+                            <p>A website gives early impression about a business through its content
+                                as well as more essentially through the experiences that the user
+                                gets. Delighting user experiences and design components help in
+                                enhanced user engagement and recognition. Join forces with the
+                                people with inventive enthusiasm that deliver UI and user design
+                                components that enhance the ease of use of the website and pass on
+                                the right message in right sincere to the intended interest
+                                audience.
+
+
+                            </p>
+                            <h5>Brochure Design
+                            </h5>
+                            <p>As best graphics service suppliers, Nahr Development Egypt help
+                                startups, and corporates e-commerce firm to get their message out
+                                with expert and fantastic designed custom catalog and brochures.
+                                These custom list or brochures guarantee a controlled joining of
+                                data with fitting design. Likewise, Nahr Development Egypt has
+                                specialists that Deliver the message flyer, trifold brochure, Sales,
+                                showcasing, marketing, instructional booklet, manual, booklet, stash
+                                organizer, logo, corporate identity, or a catalog at a reasonable
+                                price on time.</p>
+                            <h5>Advertise Design</h5>
+                            <p>Our team’s pooled capability gives us the expertise to deliver
+                                profoundly innovative, effective, quality and reasonable web
+                                advertising designs and other advert bundles on time and on proposed
+                                spending plan.</p>
+
+                            <h5>Graphics Design</h5>
+                            <p>We understand that with regards to building a brand image, its logo
+                                and different graphics assume the most extreme role, on the grounds
+                                that these are the essential components that get noticed by
+                                individuals. That is the reason we are committed to deliver the most
+                                remarkable quality graphic design services that reflect in your
+                                business in the most energetic way.
+
+                            </p>
+
+                            <h5>Website Content Writing
+                            </h5>
+                            <p>Content writing services at Nahr Development Egypt went for quality,
+                                extraordinarily, search engine friendliness cordiality with a
+                                noteworthy pitch of presentation that rich to carry out the business
+                                professionalism skill. This helps in holding the visitors, enhancing
+                                web search rank and expanding conversions, which are the essential
+                                objectives of Nahr Development Egypt.
+
+
+                            </p>
+
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+    </section><!-- End Features Section -->
+
+    <!-- End Services Section -->
+
+
+</main><!-- End #com.example.chatapplicaiton.main -->
+<!-- ======= Footer ======= -->
+<footer id="footer" style="background: #fff;">
+
+    <div class="footer-top" style="background: #14100f;">
+        <div class="container-fluid">
+            <div class="row">
+
+                <div class="col-lg-3 col-md-4 footer-contact">
+                    <h3>Turrto</h3>
+                    <p>Turrto TECHNOLOGY 5A, LOHIYA COMPLEX, NEAR VIKAS BHAWAN, Delhi - 272001<br>
+                        Mobile: <a href="tel:08887982892" style="color:#f0eb02">+91 9997 98 2892</a><br>
+                        Email:<a href="mailto:info@Turrto.in" style="color:#f0eb02">info@Turrto.in</a>
+                    </p>
+                </div>
+                <div class="col-lg-3 col-md-4 footer-newsletter footer-contact">
+                    <div aria-hidden="true" aria-labelledby="myModalLabel" class="modal fade"
+                         id="success1"
+                         role="dialog" tabindex="-1">
+                        <div class="modal-dialog modal-sm" role="document">
+                            <!--Content-->
+                            <div class="modal-content">
+                                <!--Header-->
+                                <div class="modal-header"
+                                     style="background-color:white;color:black">
+                                    <h4 class="modal-title w-100" id="myModalLabel">Notification
+                                        ! </h4>
+                                    <button aria-label="Close" class="close" data-dismiss="modal"
+                                            type="button">
+                                        <span aria-hidden="true">×</span>
+                                    </button>
+                                </div>
+                                <!--Body-->
+                                <div class="modal-body text-center">
+                                    <i aria-hidden="true" class="fa fa-check-square-o"
+                                       style="font-size:50px;color:green"></i>
+                                    <p style="color:green"><b>Your Request sent Successfully</b></p>
+                                </div>
+
+                            </div>
+                            <!--/.Content-->
+                        </div>
+                    </div>
+                    <h3>Request for Call</h3>
+
+                    <form action="" method="post">
+                        <input class="form-control" name="mobile_number" placeholder="Enter Number"
+                               type="text"><input name="call_back" type="submit"
+                                                  value="Call Me Back">
+                    </form>
+                </div>
+                <div class="col-lg-3 col-md-6 footer-newsletter footer-contact">
+                    <h3>Quick Link </h3>
+                    <ul style="list-style:none">
+                        <li><i class="bx bx-check-double" style="color:#ff5821"></i>&nbsp;&nbsp;<a
+                                class="text-white" href="android_development.html"> Android App
+                            Development</a></li>
+                        <li><i class="bx bx-check-double" style="color:#ff5821"></i>&nbsp;&nbsp;<a
+                                class="text-white" href="hybrid_app.html"> Hybrid Mobile app
+                            Development</a></li>
+                        <li><i class="bx bx-check-double" style="color:#ff5821"></i>&nbsp;&nbsp;<a
+                                class="text-white" href="software_development.html"> Software
+                            Development</a></li>
+                        <li><i class="bx bx-check-double" style="color:#ff5821"></i>&nbsp;&nbsp;<a
+                                class="text-white" href="ios_development.html"> iPhone App
+                            Development</a></li>
+                        <li><i class="bx bx-check-double" style="color:#ff5821"></i>&nbsp;&nbsp;<a
+                                class="text-white" href="windows_mobile_app.html"> Windows Mobile
+                            App</a></li>
+                        <li><i class="bx bx-check-double" style="color:#ff5821"></i>&nbsp;&nbsp;<a
+                                class="text-white" href="mac_app_development.html"> Mac App
+                            Development</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6 footer-newsletter footer-contact">
+                    <h3>Quick Link </h3>
+                    <ul style="list-style:none">
+                        <li><i class="bx bx-check-double" style="color:#ff5821"></i>&nbsp;&nbsp;<a
+                                class="text-white" href="website_development.html"> Website
+                            Development</a></li>
+                        <li><i class="bx bx-check-double " style="color:#ff5821"></i>&nbsp;&nbsp;<a
+                                class="text-white" href="website_development.html"> WordPress
+                            Development</a></li>
+
+
+                        <li><i class="bx bx-check-double" style="color:#ff5821"></i>&nbsp;&nbsp;<a
+                                class="text-white" href="website_development.html"> PHP Web
+                            Development</a></li>
+                        <li><i class="bx bx-check-double" style="color:#ff5821"></i>&nbsp;&nbsp;<a
+                                class="text-white" href="cloud_service.html"> Cloud Services</a>
+                        </li>
+                        <li><i class="bx bx-check-double" style="color:#ff5821"></i>&nbsp;&nbsp;<a
+                                class="text-white" href="digital_marketing.html"> SEO Services</a>
+                        </li>
+
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container d-md-flex py-4">
+        <div class="mr-md-auto text-center text-md-left">
+            <div class="copyright" style="color:black">
+                © Copyright <strong><span style="color:#ff5821">Turrto</span></strong>. All Rights
+                Reserved
+            </div>
+        </div>
+        <div class="social-links text-center text-md-right pt-3 pt-md-0">
+            <a class="twitter" href="https://twitter.com/tech_Turrto  " rel="noopener noreferrer"
+               target="_blank"><i class="bx bxl-twitter"></i></a>
+            <a class="facebook" href="https://www.facebook.com/Turrto.in" rel="noopener noreferrer"
+               target="_blank"><i class="bx bxl-facebook"></i></a>
+            <a class="instagram" href="https://www.instagram.com/Turrto.in"
+               rel="noopener noreferrer"
+               target="_blank"><i class="bx bxl-instagram"></i></a>
+            <a class="google-plus" href="#" rel="noopener noreferrer" target="_blank"><i
+                    class="bx bxl-skype"></i></a>
+            <a class="linkedin" href="https://www.linkedin.com/company/Turrto-technology" rel="noopener noreferrer"
+               target="_blank"><i class="bx bxl-linkedin"></i></a>
+        </div>
+    </div>
+</footer><!-- End Footer -->
+<a class="back-to-top" href="#"><i class="icofont-simple-up"></i></a>
+
+<!-- Vendor JS Files -->
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/jquery.easing.min.js"></script>
+<script src="js/validate.js"></script>
+<script src="js/jquery.sticky.js"></script>
+<script src="js/isotope.pkgd.min.js"></script>
+<script src="js/venobox.min.js"></script>
+<script src="js/jquery.waypoints.min.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script src="js/aos.js"></script>
+
+<!-- Template Main JS File -->
+<script src="js/main.js"></script>
+
+
+</body>
+</html>
